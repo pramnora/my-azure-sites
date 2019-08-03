@@ -19,4 +19,5 @@ therefore, once you've hit 'start'...remember to hit 'stop', afterwards...whenev
            (as the [index.html] web page will be served up, automatically);    
            individual web pages are called using their full filename/plus, filename extension: 001.html
 
-*NOTE(3)*: I created this file very early this morning; and, I still haven't figured out how to get Azure to connect to my GitHub a/c. yet?!              So, this project remains a work in progress. 
+*NOTE(3)*: 030819 11:41 AM GMT  
+           I created this file very early this morning; and, I still haven't figured out how to get Azure to connect to my GitHub a/c. yet?!              So, this project remains a work in progress. 

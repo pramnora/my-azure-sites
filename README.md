@@ -15,5 +15,5 @@ http://azure.microsoft.com
 *NOTE(1)*: If you leave the server running, constantly; then, it's likely you will be charged money;   
 therefore, once you've hit 'start'...remember to hit 'stop', afterwards...whenever done testing. 
 
-*NOTE(2)*: Individual web sites are served using: 001 (as the [index.html] web page will be served up, automatically);  
-           individual web pages are served using their full filename/plus, filename extension: 001.html
+*NOTE(2)*: Individual web sites are called using their folder name: 001 (as the [index.html] web page will be served up, automatically);  
+           individual web pages are called using their full filename/plus, filename extension: 001.html

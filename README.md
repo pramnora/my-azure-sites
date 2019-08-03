@@ -1,5 +1,5 @@
 # my-azure-sites
-A place for me to 'write/design/test' individual web pages/or, web sites being run from: azure.microsoft.com
+A place for me to 'write/design/test' individual web pages/or, entire web sites being run from: azure.microsoft.com
 
 ## Explanation...
 

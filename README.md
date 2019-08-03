@@ -12,7 +12,8 @@ It's possible to store on GitHub either...
 http://azure.microsoft.com  
 ...cloud web server technology;  which allows you to both 'start'/'stop' the server running.  
 
-*NOTE*: If you leave the server running, constantly; then, it's likely you will be charged money;   
+*NOTE(1)*: If you leave the server running, constantly; then, it's likely you will be charged money;   
 therefore, once you've hit 'start'...remember to hit 'stop', afterwards...whenever done testing. 
 
-
+*NOTE(2)*: Individual web sites are served using: 001 (as the [index.html] web page will be served up, automatically);  
+           individual web pages are served using their full filename/plus, filename extension: 001.html

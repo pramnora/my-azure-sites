@@ -1,0 +1,117 @@
+/* Links */
+
+a:link{
+ text-decoration:none;
+ color:blue;
+}
+
+nav a:link{
+ color:white;
+}
+
+nav a:visited{
+ color:red;
+}
+
+nav a:active{
+ color:yellow;
+}
+
+nav a:hover{
+ color:red;
+}
+
+a:hover{
+ font-weight:bold;
+ background:white;
+ color:red;
+}
+
+/* Body */
+
+html{
+ background-color:black;
+ margin-left:5%;
+ margin-right:5%;
+}
+
+body{
+ background-color:white;
+ color:black;
+ font-family:arial,verdana,sans-serif;
+ text-align:center;
+}
+
+nav{
+ background-color:green;
+}
+
+
+/* Nav */
+
+nav > p > span#idMenu{
+ text-align:right;
+ padding-top:10px;
+ padding-bottom:10px;
+ background-color:gray;
+ margin-top:0;
+ padding-right:10px;
+ color:white;
+}
+
+#idSelectedMenuItem{
+ font-weight:bold;
+}
+
+img{
+ border:solid 10px black;
+ margin-top:10px;
+ margin-bottom:10px;
+}
+
+#idName{
+ background-color:yellow;
+ font-weight:bold;
+}
+
+.clsWebSite{
+ font-weight:normal;
+ font-style:italic;
+}
+
+
+/* Main */
+
+main{
+ text-align:left;
+}
+
+h2,h3{
+ padding-left:10px;
+}
+
+hr{
+ width:50%;
+}
+
+/* Footer */
+
+footer{
+ border: double 10px gray;
+ background-color:silver;
+ text-align:center;
+ padding-right:10px;
+ padding-top:10px;
+ padding-bottom:10px;
+}
+
+#idCopyrightMessage{
+ font-weight:bold;
+ background-color:black;
+ color:white;
+}
+
+.clsTimeDateStamp{
+ font-style:italic;
+ color:red;
+}

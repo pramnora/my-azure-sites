@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+ <head>
+
+  <meta charset="utf-8" />
+
+  <link rel="stylesheet" type="text/css" href="css01.css" />
+
+  <title>Paul Ramnora Web Site using Azure/GitHub: About page</title>
+
+ </head>
+
+ <body>
+
+ <nav>
+
+  <!--NOTE: This floating CSS menu works purely as a BUG!
+            Because, you are NOT meant to nest 2 span elements together...;
+            but, here, one span is quite clearly nested inside of the next?!-->
+
+  <p>
+   <span id="idMenu">
+    Menu: 
+    &gt;
+    <span id="idSelectedMenuItem"> 
+     About
+    </span>
+    &lt;
+    |
+    <a href="diary.html">Diary</a>
+    |
+    <a href="index.html">Homepage</a>
+   </span>
+  </p>
+
+  </nav>
+
+
+ <header>
+
+  <p span id="idImage">
+   <img src="paul.jpg" />
+  </p>
+
+  <p span id="idName">
+    Paul Ramnora <span class="clsWebSite">Web Site</span>
+  </p>
+
+ </header>
+
+
+ <main>
+
+  <h2>Introduction</h2>
+
+  <blockquote>
+
+   <p>
+    I wanted to create a FREE web site; using a mixture of both Azure/GitHub cloud based technologies.
+   </p>
+
+   <h3>The hardware structure</h3>
+
+   <ul>
+    <li>The web site folders/pages are stored both...
+    <ul>
+     <li>locally, on my home computer</li>
+     <li>then each web site folder/page is uploaded/mirrored onto an external server/GitHub code repository called: <a href="https://github.com/pramnora/test2">test2</a></li>
+    </ul>
+    <li>The web server -(which serves each page to the web browser when called/and, also, provides the base URL address)- is Microsoft Windows Azure platform which points to my GitHub code repository: <a href="https://github.com/pramnora/test2">test2</a>.</li>
+   </ul>
+
+   <h3>The software structure</h3>
+
+   <ol>
+    <li>The folder structure is built using Windows 10 operating system</li>
+    <li>Each HTML web page is written using Windows 10 Notepad editor software</li>
+    <li>When all of the folders/web pages are finished with being edited; I then use GitHub Desktop application to
+     <ul>
+      <li>Commit each folder/file to the stage</li>
+      <li>Upload/Sync between my home computer/and, the external GitHub server</li>
+     </ul>
+    <li>Finally, I open up a browser window, and, <i>test</i> all files are running, correctly by running them from Microsoft Azure external server URL address:
+<br /> <a href="http://pmrwebapp1.azurewebsites.net/">http://pmrwebapp1.azurewebsites.net</a></li> 
+   </ll>
+
+  </blockquote>
+
+   <hr />
+
+   <h3>NOTES</h3>
+
+   <ul>
+
+   <li>
+    <b>NOTE(1)</b>: GitHub, keeps a precise record of each change you make to any folders/files; which means, at any point in time, you can always see/revert back any wrong changes you might have made.
+   </li>
+
+   <br />
+
+   <li>
+    <b>NOTE(2)</b>: The [index.html] web page is automatically served whenever one types in its base URL address; so, there is no need to call the file by it's full name:
+    <blockquote>
+     <a href="http://pmrwebapp1.azurewebsites.net/index.html">http://pmrwebapp1.azurewebsites.net/index.html</a>
+     <br />
+     ...instead, simply call the file using...
+     <br />
+     <a href="http://pmrwebapp1.azurewebsites.net/index.html">http://pmrwebapp1.azurewebsites.net</a>
+    <blockquote>
+   </li>
+
+   <li>
+    <b>NOTE(3)</b>: The [test2] folder is being pointed to 'invisibly' by Microsoft Windows Azure web server; which is why there was no need to mention 'test2' inside of the URL calls. 
+    <blockquote>
+     <a href="http://pmrwebapp1.azurewebsites.net/test2/index.html">http://pmrwebapp1.azurewebsites.net/<strike>test2/</strike>index.html</a>
+     <br />
+     ...instead, simply call the file using...
+     <br />
+     <a href="http://pmrwebapp1.azurewebsites.net/index.html">http://pmrwebapp1.azurewebsites.net/index.html</a>
+    <blockquote>
+   </li>
+
+   <li>
+    <b>NOTE(4)</b>: Getting Microsoft Windows Azure to point to a GitHub Repo does take some very careful setting up...; you have to know exactly where to look inside of the multiple menus in order to discover all of the right settings/options.
+   </li>
+
+   <br />
+
+   <li>
+    <b>NOTE(5)</b>: Potentially, you can risk having to go face a huge bill by letting Windows Azure web server keep running, constantly, all the time: 24/7/366 non-stop! Therefore, whenever you are finished with 'testing' web pages; always remember to turn the server off by clicking option: 'stop'. 
+   </li>
+
+   <br />
+
+   <li>
+    <b>NOTE(6)</b>: You don't have to run web sites this way; there are, at least, 2 other possible options...
+    <ul>
+     <br />
+     <li>Run a FREE web site from inside of GitHub using either their online editor.
+      <br />
+      <a href="http://pramnora.github.io">http://pramnora.github.io</a>
+     </li>
+     <br />
+     <li>Run a FREE web site from inside of Windows Azure using their online editor.</li>
+    </ul>
+    <br />
+    However, I find that developing/uploading web sites from home...is far easier, and, a much more truly comfortable way to work...without needing to be online all the time.
+   </li>
+
+  
+  </ul>
+
+ </main>
+
+ <footer>
+
+  <p>
+   Email: 
+   <a href="mailto:paul@ramnora.com">
+    paul@ramnora.com
+   </a>
+   <br>
+   Web Page URL: 
+   <a href="http://pmrwebapp1.azurewebsites.net/about/index.html">
+    http://pmrwebapp1.azurewebsites.net/about/index.html
+   </a>
+   <br>
+   <span id="idCopyrightMessage">
+    &copy;2016, Mr. Paul Ramnora./All rights reserved.
+   </span>
+   <br>
+   Created: 
+   <span class="clsTimeDateStamp">
+    06:57 22/09/2016
+   </span>
+   <br>
+   Updated: 
+   <span class="clsTimeDateStamp">
+    04:35 23/09/2016
+   </span>
+  </p>
+
+ </footer>
+
+ </body>
+
+</html>

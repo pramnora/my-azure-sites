@@ -1,1 +1,96 @@
-You've reached: my-azure-sites/web-sites/001/index.html
+<!DOCTYPE html>
+
+<html lang="en">
+
+ <head>
+
+  <meta charset="utf-8">
+
+  <title>Index</title>
+
+  <link rel="stylesheet" type="text/css" href="css01.css">
+
+ </head>
+
+ <body>
+
+
+ <nav>
+  <!--NOTE: This floating CSS menu works purely as a BUG!
+            Because, you are NOT meant to nest 2 span elements together...;
+            but, here, one span is quite clearly nested inside of the next?!-->
+
+  <p>
+   <span id="idMenu">
+    Menu: 
+    <a href="about.html">About</a>
+    |
+    <a href="diary.html">Diary</a>
+    |
+    &gt;
+    <span id="idSelectedMenuItem"> 
+     Homepage
+    </span>
+    &lt;
+   </span>
+  </p>
+
+  </nav>
+
+ <header>
+
+  <p span id="idImage">
+   <img src="paul.jpg">
+  </p>
+
+  <p span id="idName">
+    Paul Ramnora <span class="clsWebSite">Web Site</span>
+  </p>
+
+ </header>
+
+ <main>
+
+  <h2>Introduction</h2>
+
+  <blockquote>
+
+   <p>
+    Hi, welcome to my FREE web site which was built using both Azure/GitHub. ;-)
+   </p>
+
+  </blockquote>
+
+ </main>
+
+ <footer>
+  <p>
+   Email: 
+   <a href="mailto:paul@ramnora.com">
+    paul@ramnora.com
+   </a>
+   <br>
+   Web Page URL: 
+   <a href="http://pmrwebapp1.azurewebsites.net/index.html">
+    http://pmrwebapp1.azurewebsites.net/index.html
+   </a>
+   <br>
+   <span id="idCopyrightMessage">
+    &copy;2016, Mr. Paul Ramnora./All rights reserved.
+   </span>
+   <br>
+   Created: 
+   <span class="clsTimeDateStamp">
+    06:57 22/09/2016
+   </span>
+   <br>
+   Updated: 
+   <span class="clsTimeDateStamp">
+    04:26 23/09/2016
+   </span>
+  </p>
+ </footer>
+
+ </body>
+
+</html>

@@ -66,10 +66,10 @@ nav > p > span#idMenu{
 img{
  border:solid 10px black;
  margin-top:10px;
- margin-bottom:10px;
 }
 
 #idName{
+ padding:10px;
  background-color:yellow;
  font-weight:bold;
 }
